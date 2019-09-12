@@ -1,4 +1,5 @@
 from os import environ
-from base import app, db
+from flask import Flask
 
-app.run(environ.get('PORT'), debug=True)
+app = Flask(__name__)
+app.run(environ.get('PORT'))
