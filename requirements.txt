@@ -14,3 +14,4 @@ sklearn>=0.0
 SQLAlchemy>=1.2.19
 sqlparse>=0.3.0
 WTForms>=2.2.1
+gunicorn>=19.1.1
